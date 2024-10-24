@@ -136,11 +136,64 @@ li {
 
 }  
 
+/* ==================================== */
 
 .box {
         @apply bg-slate-50 text-center w-52 h-40;
     }
     
+/* ==================================== */
+.popup{
+
+    .overlay{
+        @apply fixed top-0 left-0 w-[100vw] h-[100vh] bg-slate-500 z-[1] ;
+        opacity: 70%;
+        display: none;
+        
+    }
+
+    .content{
+        @apply absolute top-[50%] left-[50%] bg-white w-[450px]
+        h-[220px] z-[2] text-center p-5 ;
+        transform:translate(-50%, -50%)scale(0);
+    
+    }
+    
+    .close-btn{
+        @apply absolute right-5 top-5 w-[30px] h-[30px] bg-slate-900 text-white
+        text-center rounded-[50%];
+    
+        font-size:25px;
+        font-weight: 600;
+        line-height: 25px;
+        color:#ffff;
+    }
+}
+
+.popup.active .overlay{
+    
+    @apply block;
+
+}
+
+.popup.active  .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+/* ==================================== */
+
+.wrapper-Landing{
+    @apply flex flex-col items-center justify-center bg-amber-600 
+    w-[100vw] h-[100vh] max-h-[90%]
+    my-[50px] mx-auto p-5 ;
+
+}
+
+.left-Landing{
+    @apply flex flex-row bg-neutral-400
+    mx-[20px] my-[20px]
+    w-[300px] h-[500px] p-5;
+}
 
 @layer components{
 } 
