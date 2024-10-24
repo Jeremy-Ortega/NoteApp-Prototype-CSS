@@ -99,11 +99,41 @@ li {
 
 
 .create-wrapper {
-    @apply  flex flex-row items-start justify-center bg-slate-300 w-[90%] h-[60%] p-10 my-[5%] mx-auto gap-2 rounded-xl;
+    @apply  flex flex-row items-start justify-center  w-[90%] h-[62%] p-10 my-[5%] mx-auto gap-2 rounded-xl;
+    @apply bg-gradient-to-br from-slate-50 to-orange-200;
     max-width: 750px;
     max-height: 600px;
 
-   
+    .label-format{
+        @apply sm:text-[8px] sm:gap-3 md:text-xs md:gap-8 lg:text-lg  lg:gap-14;
+        @apply font-sans gap-4;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    input,textarea{
+        @apply border-[2px] border-orange-300;
+
+    }
+
+    .button-option{
+        @apply flex flex-row justify-center gap-2;
+    }
+   button{
+    @apply flex py-[10px] px-[20px] sm:py-[12px] sm:px-[25px] md:py-[14px] md:px-[30px] lg:py-[16px] lg:px-[35px]; 
+    @apply border-0 rounded-[20px] bg-yellow-500 text-white;
+    /* @apply flex py-[12.5px] px-[30px] border-0 rounded-[20px] bg-yellow-500 text-white ; */
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+   }
+
+   .ok{
+    @apply bg-green-600;
+   }
+   .notok{
+    @apply bg-orange-400;
+   }
+
 }  
 
 
