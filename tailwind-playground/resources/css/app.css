@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.background {
+    /* @apply bg-orange-400; */
+    /* @apply bg-slate-100; */
+    @apply bg-gradient-to-t from-slate-500 to-zinc-800;
+
+header {
+    @apply flex flex-wrap text-center justify-center bg-orange-400 p-4 text-white shadow-lg shadow-slate-700;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+
+ul {
+    /* @apply flex text-center items-center w-full px-16;
+    width: 100%;  */
+
+    @apply flex text-center items-center w-full px-4 sm:px-8 md:px-16; /* Reduce padding on smaller screens */
+    width: 100%; 
+}
+
+li {
+    /* @apply gap-4 text-lg; 
+    font-family: 'Lucida Sans';
+    font-weight: 500; */
+
+    @apply gap-2 text-base sm:gap-4 sm:text-lg; /* Adjust gap and text size responsively */
+    font-family: 'Lucida Sans';
+    font-weight: 500;
+}
+}
+
+
+.contentwrapper {
+    
+    @apply flex flex-col items-center justify-center bg-amber-200 my-0 mx-auto p-5;
+    width: 80%; /* Set a width for the wrapper */
+    max-width: 1200px;
+ /* This centers the wrapper horizontally */
+    min-height: 100vh;  
+    /* para lang to pag gusto ko na buong page, pero pag sa home, kahit hindi na*/
+    /* @apply p-6 max-w-4xl mx-auto my-8 min-h-96 flex flex-col justify-center items-center bg-gray-400; */
+};
+
+.card {
+
+    @apply w-[240px] p-4 h-auto cursor-pointer rounded-[0.75rem] shadow-md relative bg-slate-50 flex-col items-center justify-center;
+    
+    h2.title-card {
+    @apply bg-amber-400 p-2 mt-[-20px] text-center justify-center;
+    font-family: 'Lucida Sans';
+    font-weight: 500;
+    }
+
+    p.description {
+        @apply w-[200px] h-[100px] overflow-y-auto p-2  my-[10px]; 
+
+         /* font-family: "Arial"; */
+         
+        scrollbar-width: none; /* Firefox: hides the scrollbar */
+        -ms-overflow-style: none; /* IE and Edge: hides the scrollbar */
+    }
+       
+    div.date{
+        @apply flex flex-row left-0 italic;
+        font-size: x-small;
+    }
+
+    div.options {
+        @apply flex flex-row ml-6 gap-[5px]  border-orange-300 items-center justify-center; 
+        font-family: 'Lucida Sans';
+        font-weight: 500;
+    }
+
+    /* long version */
+    /* --border-radius: 0.75rem;
+    --primary-color: #7257fa;
+    --secondary-color: #3c3852;
+    width: 210px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+    position: relative; */
+
+  }
+
+
+.create-wrapper {
+    @apply  flex flex-row items-start justify-center bg-slate-300 w-[90%] h-[60%] p-10 my-[5%] mx-auto gap-2 rounded-xl;
+    max-width: 750px;
+    max-height: 600px;
+
+   
+}  
+
+
+.box {
+        @apply bg-slate-50 text-center w-52 h-40;
+    }
+    
+
+@layer components{
+} 
+
+
+/* git add -f .  */
