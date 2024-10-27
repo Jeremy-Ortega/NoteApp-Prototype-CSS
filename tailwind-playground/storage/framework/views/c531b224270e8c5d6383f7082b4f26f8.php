@@ -14,7 +14,7 @@
 
    
     <div class="main-wrapper-home">
-        <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">NOTES : </h4></div>
+        <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">ALL NOTES : </h4></div>
 
 
         

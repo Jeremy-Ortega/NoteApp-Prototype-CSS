@@ -30,10 +30,4 @@
     </nav>
   </header>
 
-
-             {{-- "mr-[200px] sm:mr-[80px] md:mr-[400px]"
-
-            "ml-[100px]" --}}
-
-            {{-- <li><img src="{{asset("images/logo_icon.png")}}" alt="" class=" w-[55px] h-[55px] min-w-[40px] min-h-[40px] sm:w-[55px] sm:h-[55px]"></li> --}}
-            {{-- <li>Notable</li> --}}
+ 

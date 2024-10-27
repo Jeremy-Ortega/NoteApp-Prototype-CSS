@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     
@@ -9,17 +8,23 @@
 </head>
 <body class="background">
 
-    <div class="main-wrapper-landing gap-6">
-        <div class="logo-wrapper-landing"><img src="<?php echo e(asset("images/logo_wtitle.png")); ?>" alt=""></div>
+    <div class="main-wrapper-landing flex gap-3">
+
+        <div class="logo-wrapper-landing "><img src="<?php echo e(asset("images/logo_wtitle.png")); ?>" alt="" class="w-full h-full"></div>
         
-            <div class="flex flex-col sm:flex-row  ">
+               
+        <div class=" box"> 
+            hello
 
-                <div class="sub-wrapper-landing"> 
+            
+        </div>
+                  
 
-                    <?php echo $__env->make("components.register-login-form", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+ 
 
-                </div>
-            </div>
+
+
+
     </div>
     
 </body>

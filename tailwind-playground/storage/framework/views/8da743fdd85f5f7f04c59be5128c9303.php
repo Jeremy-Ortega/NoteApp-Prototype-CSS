@@ -5,7 +5,6 @@
     <div class="sub-header-wrapper">
         
 
-
         <div class="sub-wrapper-create mx-5 lg:-mt-5">
             <label for="title" class="label-format  ">Note Title:</label>
             <input type="text" id="title" name="title" required placeholder="Add Title">
@@ -16,7 +15,7 @@
 
 
         
-      <div class="flex flex-col gap-2 "> 
+      <div class="flex flex-col gap-3 "> 
          
 
             
@@ -33,9 +32,9 @@
 
         
           <div class="button-option ">
-             <button type="submit" class="edit notok">Delete </button>
-             <button type="submit" class="edit maybe">Cancel </button>
-             <button type="submit" class="edit ok">Save </button>
+             <button type="submit" class=" notok">Delete </button>
+             <button type="submit" class=" maybe">Cancel </button>
+             <button type="submit" class=" ok">Save </button>
          </div>
       </div>    
      </form>

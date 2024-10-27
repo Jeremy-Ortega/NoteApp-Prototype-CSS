@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     @extends('template')
@@ -8,29 +9,23 @@
 </head>
 <body class="background">
 
-    <div class="main-wrapper-landing flex gap-3">
+    <div class="main-wrapper-landing gap-3">
 
         <div class="logo-wrapper-landing "><img src="{{asset("images/logo_wtitle.png")}}" alt="" class="w-full h-full"></div>
         
-               
-        <div class=" box"> 
-            hello
+        <div class="flex sm:flex-row">
+                {{-- 
+                <div class="w-[500px] h-full bg-slate-100"> 
+                    other
 
-            
-        </div>
-                  
+                </div> --}}
 
- 
-
-
-
-{{-- 
                 <div class="sub-wrapper-landing"> 
 
                     @include("components.login-form")
 
                 </div>
-            </div> --}}
+            </div>
     </div>
     
 </body>

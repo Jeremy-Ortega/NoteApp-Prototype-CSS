@@ -3,8 +3,6 @@
     <form action=""  >
     
     <div class="sub-header-wrapper">
-        
-
 
         <div class="sub-wrapper-create mx-5 lg:-mt-5 ">
             <label for="title" class="label-format  ">Note Title:</label>
@@ -16,7 +14,7 @@
 
 
         
-      <div class="flex flex-col gap-2 "> 
+      <div class="flex flex-col gap-3 "> 
          
 
             

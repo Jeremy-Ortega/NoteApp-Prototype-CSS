@@ -3,12 +3,14 @@
     <h2 class="title-card"> hello</h2> 
     <hr class=" mt-[4px] h-[5px] bg-amber-500">
 
+        <p class="description">pogi ako egsdi sadddddddddddddddddddddddddddddddddddddd   aas</p>
+    <hr class=" h-[2px] bg-orange-600">
 
-    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique at dicta, reiciendis, dolorem aliquam blanditiis veniam optio vitae nostrum accusantium, voluptas ut molestiae. Reprehenderit, odio iure aliquid libero aut quos!</p>
+        <p class="note-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique at dicta, reiciendis, dolorem aliquam blanditiis veniam optio vitae nostrum accusantium, voluptas ut molestiae. Reprehenderit, odio iure aliquid libero aut quos!</p>
 
-    <hr class=" h-[1px] bg-slate-500">
+    <hr class=" h-[1px] bg-orange-600">
 
-    <div class="flex flex-row">
+    <div class="flex flex-row mt-2">
         <div class="flex-col"> 
             
             <div class="date">

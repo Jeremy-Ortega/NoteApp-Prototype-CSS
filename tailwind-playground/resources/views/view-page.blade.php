@@ -13,7 +13,7 @@
     @include('components.mainHeader')
 
     <div class="main-wrapper-home justify-start items-start">
-      <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">NOTE : </h4></div>
+      <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">VIEW / NOTE : </h4></div>
 
       @include('components.note-view')
 

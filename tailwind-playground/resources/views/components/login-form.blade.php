@@ -15,7 +15,7 @@
     </div>
     <div class="btn">
     <button class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-    <button class="button2">Sign Up</button>
+    <button class="button2">Cancel</button>
     </div>
     <br>
     {{-- <button class="button3">Forgot Password</button> --}}

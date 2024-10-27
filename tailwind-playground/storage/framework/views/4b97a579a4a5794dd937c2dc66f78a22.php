@@ -20,8 +20,4 @@
     </nav>
   </header>
 
-
-             
-
-            
-            <?php /**PATH C:\Users\USER\NoteApp-Prototype-CSS\tailwind-playground\resources\views/components/mainHeader.blade.php ENDPATH**/ ?>
+ <?php /**PATH C:\Users\USER\NoteApp-Prototype-CSS\tailwind-playground\resources\views/components/mainHeader.blade.php ENDPATH**/ ?>
