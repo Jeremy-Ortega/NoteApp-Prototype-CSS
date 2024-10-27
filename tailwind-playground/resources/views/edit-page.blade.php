@@ -2,29 +2,24 @@
 <html lang="en">
 <head>
     @extends('template')
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Edit</title>
 </head>
-<body class="background h-[100vh]">
+<body class="background">
 
-    @include("components.mainHeader")
+    @include('components.mainHeader')
+
+    <div class="main-wrapper-home justify-start items-start">
+      <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">EDIT : </h4></div>
+
+      @include('components.note-edit')
+
+  </div>
 
 
-    <div class="popup" id="popup1">
-
-        <div class="overlay"></div>
-        
-        <div class="content">
-            <div class="close-btn" onclick="togglePopup()">&times;</div>
-            <h1>yoww</h1>
-            surely gagana to
-        </div>
-               
-    </div>
-<button onclick="togglePopup()"> show ???</button>     
 
 </body>
 </html>

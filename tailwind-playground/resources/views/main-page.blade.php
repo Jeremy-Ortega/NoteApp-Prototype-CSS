@@ -13,19 +13,25 @@
  @include('components.mainHeader')
 
    {{-- MAIN WRAPPER --}}
-    <div class="contentwrapper">
-      <h1 class="text-xl font-bold mb-10 mt-[-300px]">=== Notes list :3 ===</h1>
+    <div class="main-wrapper-home">
+        <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">NOTES : </h4></div>
 
-      {{-- NOTES ITEM WRAPPER --}}
-        <div class="flex flex-wrap gap-4 mt-[-10px]" >
 
-        {{-- NOTE TEMPLATE (gagamitan ng foreach) --}}
-        @include('components.noteCard')
-        @include('components.noteCard')
+        {{-- NOTES ITEM WRAPPER --}}
+        <div class="sub-wrapper-home" >
+
+          {{-- NOTE TEMPLATE (gagamitan ng foreach) --}}
+          @include('components.noteCard')
+          @include('components.noteCard')
+          @include('components.noteCard')
+          @include('components.noteCard')
+          @include('components.noteCard')
+          @include('components.noteCard')
 
        
-      </div>
-      </div>
+        </div>
+
+
     </div>
 
 

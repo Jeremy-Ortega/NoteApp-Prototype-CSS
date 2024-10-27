@@ -13,19 +13,25 @@
  <?php echo $__env->make('components.mainHeader', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
    
-    <div class="contentwrapper">
-      <h1 class="text-xl font-bold mb-10 mt-[-300px]">=== Notes list :3 ===</h1>
+    <div class="main-wrapper-home">
+        <div class="wrapper-header"><h4 class="ml-4 my-2 lg:my-4 relative font-semibold text-base md:text-[20px]">NOTES : </h4></div>
 
-      
-        <div class="flex flex-wrap gap-4 mt-[-10px]" >
 
         
-        <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-        <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+        <div class="sub-wrapper-home" >
+
+          
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+          <?php echo $__env->make('components.noteCard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
        
-      </div>
-      </div>
+        </div>
+
+
     </div>
 
 

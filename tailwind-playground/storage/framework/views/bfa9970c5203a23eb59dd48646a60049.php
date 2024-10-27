@@ -5,16 +5,20 @@
 
 
     <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique at dicta, reiciendis, dolorem aliquam blanditiis veniam optio vitae nostrum accusantium, voluptas ut molestiae. Reprehenderit, odio iure aliquid libero aut quos!</p>
-    
+
+    <hr class=" h-[1px] bg-slate-500">
+
     <div class="flex flex-row">
-    <div class="flex-col"> 
-        <div class="date">
-            <h4> date created :</h4> <h4 class="ml-2">10-26-04</h4>
-        </div>
-        <div class="date">
-            <h4> date updated :</h4> <h4 class="ml-2">10-26-04</h4>
-        </div>
-    </div>   
+        <div class="flex-col"> 
+            
+            <div class="date">
+                
+                <h4> date created :</h4> <h4 class="ml-2">10-26-04</h4>
+            </div>
+            <div class="date">
+                <h4> date updated :</h4> <h4 class="ml-2">10-26-04</h4>
+            </div>
+        </div>   
     
 
         <div class="options">
